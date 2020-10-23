@@ -1,9 +1,3 @@
-/* ==================================
- *            ACIC Lab 01
- *          Filipe Reynaud
- *          Joao Saramago
- * ================================== */
-
 int currentLED = 0; // the LED that is currently HIGH
 int myLEDS[] = {6, 5, 4, 3}; // array with the pins that have LEDS
 int numberOfPins = 4; // number of LEDS in board
