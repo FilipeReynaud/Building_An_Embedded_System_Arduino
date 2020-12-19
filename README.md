@@ -13,7 +13,7 @@ This embedded system uses Arduino UNO board to control 4 LEDs with different col
 4. Yellow LED ON
 5. All LEDs OFF
 
-This behavior is then repeated. Circuit.png represents the circuit to drive the LEDs to be assembled. 
+This behavior is then repeated. ```Circuit.png``` represents the circuit to drive the LEDs to be assembled. 
 
 ### Extended Feature
 After the implementation of the system described earlier, a new feature was developed: interface the circuit to a press button. Whenever the button is pressed (OFF → ON → OFF) the LED activated at the moment must remain ON (before, in stage 5, the system stops with all LEDs OFF). With the system stopped it is easier to read the voltage drop on each LED. When the button is pressed again the system will continue its normal operation sequence.
